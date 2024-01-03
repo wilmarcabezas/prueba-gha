@@ -1,8 +1,8 @@
-name: ci
+name: deploy
 
 on:
   push:
-    branches: main
+    branches: master
 
 jobs:
   login:
